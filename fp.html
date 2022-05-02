@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="reg.css">
+    <script type="text/javascript" src="FormValidation.js" ></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <nav class="navigation">
+        
+        <a href="sample.html" class="logo"><img src="logo.png" style="height: 120px; width: 160px;"></a>
+        
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i></span>
+        </label>
+        
+        <ul class="menu">
+            <li><a href="sample.html" class="active">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="right-elements">
+            <a href="#" class="search"><i class="fas fa-search"></i></a>
+            <a href="#" class="cart"><i class="fas fa-shopping-bag"></i></a>
+            <a href="login.html" class="user"><i class="far fa-user"></i></a>
+        </div>
+    </nav>
+  <div class="container">
+    <div class="title">Password recovery</div>
+    <div class="content">
+      <form id="theForm" name="fp" method="get" action="sample.php">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">E-mail<span class="red">*</span></span>
+            <input type="email" id="email" placeholder="Enter your Registered E-mail">
+            <span id="emailError" class="red">&nbsp;</span>
+          </div>
+        </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" id="submit">&nbsp;
+          <input type="reset" value="CLEAR" id="reset">
+        
+        </div>
+      </form>
+      <a href="login.html">Sign in</a></br>
+      <a href="regs.html">Don't have an Account?</a>
+    </div>
+  </div>
+
+</body>
+</html>
